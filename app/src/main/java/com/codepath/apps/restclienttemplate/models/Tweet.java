@@ -1,9 +1,6 @@
 package com.codepath.apps.restclienttemplate.models;
 
-/**
- * Created by Ermano
- * on 2/24/2018.
- */
+
 
 import com.codepath.apps.restclienttemplate.database.MyDatabase;
 import com.raizlabs.android.dbflow.annotation.Column;

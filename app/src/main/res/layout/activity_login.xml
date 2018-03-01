@@ -14,16 +14,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:background="@drawable/selector_btn_normal"
-            android:onClick="loginToRest"
-            android:text="@string/login_label"
-            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <ImageView
@@ -32,7 +25,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         app:srcCompat="@drawable/tw__ic_logo_blue" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_btn_normal"
+        android:onClick="loginToRest"
+        android:text="@string/login_label"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>

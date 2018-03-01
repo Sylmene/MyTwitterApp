@@ -40,10 +40,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import cz.msebera.android.httpclient.Header;
 
-/**
- * Created by Ermano
- * on 2/24/2018.
- */
 
 public class FragmentNewTweet extends DialogFragment implements View.OnClickListener, TextWatcher {
 
